@@ -10,4 +10,5 @@ $(notdir \
 )
 endef
 
+-include vendor/firmware/$(TARGET_DEVICE)/config.mk
 -include vendor/firmware/$(TARGET_DEVICE)/firmware.mk
